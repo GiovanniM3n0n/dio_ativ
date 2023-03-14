@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    height: fit-content;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(5, 108, 108);
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    height: 7%;
+    text-align: start;
+ 
+}
+.content {
+    background-color: white;
+    height: 80%;
+    padding: 20px;
+    height: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+.footer {
+
+    background-color: rgb(5, 108, 108);
+    height: 155px;
+    align-items: center;
+    color: #f1f1f1;
+    text-align: center;
+   
+}
+
+#logo{
+    height: 90px;
+    float: left;
+}
+
+
+
+#T1{
+    text-align: center;
+    color: #f1f1f1;
+    padding-right: 100px;
+}
+
+#T2{
+    font-size: larger;
+   margin-bottom: 50px;
+}
+
+#veio{
+    text-align:  center;
+    height: 400px;
+    width: 700px;
+    margin: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+#veio { 
+    transition: 0.5s; 
+}
+
+#veio:hover { 
+    transform: scale(1.1); 
+}
+
+#lis{
+    
+    font-size: larger;
+    color: #f1f1f1;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+   }
+   
+   a:hover {
+  color: aliceblue;
+   }
+
+   
